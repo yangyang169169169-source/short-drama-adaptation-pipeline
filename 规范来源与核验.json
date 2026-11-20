@@ -1,0 +1,137 @@
+{
+  "version": "2026.11.20.1",
+  "date": "2026-11-20",
+  "alias": "改编 skill",
+  "scope": "保留2026.11.12.2项目维护基线；同步2026-11-20人物审美、男模演员骨相参考和常规定妆板交接",
+  "adaptation_source": {
+    "package": "short-drama-adaptation-pipeline_交接包_20261031",
+    "manifest_verified_files": 8,
+    "zip_sha256": "a08190e88d46265c1a8375797c20e677c59ed02d2ea07e36a0277f2d08a90d87",
+    "skill_sha256": "97861a46152b048472c2348facbe900fd96749820b30a90e557bb664b954fac7",
+    "preserved": "步骤1—4叙事、保真、写作校对总编、风险决定及冻结流程；仅更新项目规范、标题与资产接口"
+  },
+  "production_source": {
+    "skill": "tiktok-custom-drama-production",
+    "snapshot_date": "2026-10-31",
+    "main_sha256": "0bb97714cc94d4a1c0dede5fcfef88c98965d820d618aa11eb55a8d32aff4634",
+    "references_sha256": {
+      "资产规划与按需生成规则.md": "dad3b058522994d9d42c0227ecf536e9928e1c937feeafdecf2fc93264f63b1e",
+      "角色资产生成规则.md": "60e7b9e42849b8f5c8eb83f2d18ccbd81fbeebda09b6eb21399f28a5d85026ce",
+      "人物选角与跨剧差异化.md": "485382a818dcd6ac610aa1920dbbc05b3d2bb0ae81c7ecf6a4642c38474b2173",
+      "场景资产生成规则.md": "85544f2649d2ba5773654759607cd83fecd95f9453e3c577fa9af9c2a8b5e26a",
+      "场景叙事美术与光影差异化.md": "2dc731edfaa1b7bb14d7e2c67fe3688b047fbd684d45b723f40dfcf015a35759",
+      "道具资产生成规则.md": "757a5bc5749dde30629fa1b26ea6216254ed83ec10b5bda1f81da0bf157ee9d0"
+    }
+  },
+  "step_mapping": {
+    "5": "tiktok-custom-drama-production步骤2",
+    "6": "tiktok-custom-drama-production步骤3",
+    "7": "tiktok-custom-drama-production步骤4"
+  },
+  "asset_reference_adaptations": {
+    "资产规划与按需生成规则.md": [
+      "步骤2/3/4改为本流程5/6/7"
+    ],
+    "角色资产生成规则.md": [
+      "步骤2/3/4改为本流程5/6/7",
+      "不得依赖旧改编大纲、固定项目状态卡或某台电脑上的专用目录，也不得用程序批量编写 Prompt。 → 不得用旧改编大纲替代冻结正文；沿用既有项目状态卡定位版本，不以状态卡补造剧情，不依赖某台电脑上的专用目录，也不得用程序批量编写 Prompt。",
+      "不强制创建大纲或项目状态卡 → 沿用已有大纲及项目状态卡，不另建副本",
+      "2026-11-12：服装造型调研先从独立共享服装参考库查找并实际查看适配原图"
+    ],
+    "人物选角与跨剧差异化.md": [
+      "步骤2/3/4改为本流程5/6/7"
+    ],
+    "场景资产生成规则.md": [
+      "不得依赖固定项目状态卡或某台电脑上的目录。 → 沿用既有项目状态卡定位冻结正文与资产状态，不另建状态文件，也不依赖某台电脑上的目录。"
+    ],
+    "场景叙事美术与光影差异化.md": [
+      "步骤2/3/4改为本流程5/6/7"
+    ],
+    "道具资产生成规则.md": [
+      "不得依赖固定项目状态卡或某台电脑上的目录。 → 沿用既有项目状态卡定位冻结正文与资产状态，不另建状态文件，也不依赖某台电脑上的目录。",
+      "不强制创建大纲或项目状态卡 → 沿用已有大纲及项目状态卡，不另建副本",
+      "发用户确认后再执行生成： → 按已有审阅安排与本轮已获授权执行："
+    ]
+  },
+  "project_overrides": [
+    "文稿展示剧名=中文剧名_英文剧名；可见名称用中文剧名或约定简称",
+    "文件用剧名=中文剧名_英文剧名Slug",
+    "导入时可见项目／聊天名=母本中文名 改编；用户确认改编方向且确认新剧名后主动更名为剧名 剧本",
+    "其他可见名称=剧名 资产／人物／场景／道具／分镜素材，参照短剧复刻项目命名规则",
+    "待定名新项目目录=YYMM_Sx_母本中文名_改编；确认后原项目更名为YYMM_Sx_中文剧名_英文剧名Slug，保留前缀不重复计数",
+    "新建项目后立即原样收存母本至工作区母本/，同时保留客户原稿/；内容核验、相同复用、不同版本不覆盖",
+    "复用历史英文名目录并纳入批次计数，不批量更名或回填历史项目",
+    "改编设定大纲与状态卡继续复用；不另建副本",
+    "2026-11-05：短剧与改编共同使用用户指定本地主演参考库；先看适配外貌／服装，按剧情人设转译，持续收存用户参考、按内容去重、保留来源与看图状态",
+    "2026-11-05补充：其他用户创作参考也可归入同一库；儿童参考放根目录儿童/，按真实年龄与剧情人设选用",
+    "2026-11-12：新增独立服装参考库，收存可访问的用户及客户服装参考，记录年代、地域、用途及实际反馈",
+    "2026-11-12：男女外貌参考先按类型、脸型和可见特点筛选，新增图片沿用分类与项目用途记录"
+  ],
+  "dependencies": {
+    "script-library-reviewer": "本包未包含，本机标准Skill入口暂未发现；仅步骤1检索需要，直接指定底本的步骤2—7不受影响",
+    "image_generation": "执行时使用当前环境可用且本轮已授权的图片生成工具"
+  },
+  "files": {
+    "SKILL.md": "db284ffea037384ed68eebdaeef92dddc2a523957382f5c29bf55ac5bddaac54",
+    "agents/openai.yaml": "5e0075445d71b12981167545b181113642b39b32626a6fc19ecc9a6928e1c45c",
+    "references/人物肤质脸型与服装验收.md": "bbd057c07cedc681e862225550c4e052ff2292a0b699a96a3e2475b0340f6a7a",
+    "references/人物资产辨识度与视频参考.md": "a148d44330094d4105dc8c2b0cace7bb51b734b980494a40b7dba3b4583937ff",
+    "references/人物选角与跨剧差异化.md": "f000e3cabe05f48b0deaa46d647bff07b350b7cfce005bc32a6ebe706ea91979",
+    "references/共享主演参考库.md": "01d22848ff62209e6d782af353360871429486eedb953af5e8decaf1f34b8460",
+    "references/共享主演参考库配置.json": "ec4dd24aa55f854f96801f74fa574db481925160c2a55ae7f28c448a0f9dd66a",
+    "references/内容安全与叙事边界.md": "a3be67d9d613f4217a096cfaf951dde2127e8bd963d0385579eee600a362a391",
+    "references/场景叙事美术与光影差异化.md": "9e91b4c13ff092a5ea95e40e23b5ef71160e6c82ca51b843bf505df109a96227",
+    "references/场景资产生成规则.md": "f329cbd2b538af0f2dcd44ab691ca3de0b8d6a32d4c43cdf531e7b9f7881a30c",
+    "references/角色资产生成规则.md": "97e192459f306e7f998962f70f3bc4785a3a18436a822d6ef558484bcd489f14",
+    "references/资产规划与按需生成规则.md": "0439aef90f58f1e36e9527ac08dac0feddf3944dd8095ca2a06fc56190f4333b",
+    "references/道具资产生成规则.md": "6bb3a6287f8e7f6b2686ef00923f8bda4195af3b783d0db37020c7cd9641c262",
+    "references/项目规范与目录整理.md": "e56bd76413ae5ebf773aac9cddd55ed74b35ce566485ffa75e745414f3138bb9"
+  },
+  "naming_source": {
+    "source": "短剧复刻/AGENTS.md：新聊天自动命名（2026-10-09 用户长期偏好）",
+    "snapshot_date": "2026-11-01",
+    "section_body_sha256": "a830afc3aa14ac804b3ca8ff5ff00b3403c337e08fc82419bf948a20b084a521",
+    "user_override": "本次导入阶段先用母本中文名 改编，用户确认改编方向与新剧名后再更名为剧名 剧本；其他分类沿用来源规则"
+  },
+  "shared_protagonist_reference_library": {
+    "updated": "2026-11-05",
+    "production_rule_sha256": "3cc1f67606808cb7b2267b0522efdda8e2bdab56f9533d704e34d7ceb9c52c8b",
+    "config": "references/共享主演参考库配置.json",
+    "external_media_bundled": false
+  },
+  "shared_clothing_reference_library": {
+    "updated": "2026-11-12",
+    "config": "references/共享主演参考库配置.json",
+    "external_media_bundled": false
+  },
+  "shared_appearance_index": {
+    "updated": "2026-11-12",
+    "config": "references/共享主演参考库配置.json",
+    "view": "按外貌查找"
+  },
+  "update_20261120": {
+    "base_version": "2026.11.12.2",
+    "changes": [
+      "默认白皙细嫩无瑕肤质、前10集出镜覆盖",
+      "主要女性小巧柔V脸",
+      "成年主要女性提高合适露肤度并显协调曲线",
+      "男女均不露点与不透点",
+      "男主及主要男配参考顶级男模或男演员脸型骨相，避免太长太方太大",
+      "只交付常规定妆三联板，不生成独立UpperBody"
+    ],
+    "stage_1_4_preserved": true,
+    "automatic_production": false
+  },
+  "public_release": {
+    "version": "2026.11.20.1",
+    "tag": "v2026.11.20.1",
+    "date": "2026-11-20",
+    "private_media_included": false,
+    "machine_paths_included": false,
+    "adaptations": [
+      "共享库路径改为可迁移配置",
+      "参考图片不随公开仓库分发",
+      "字符资产采用本轮最新标准，改编步骤1—4保持原维护版"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "改编 skill"
+  short_description: "保留母版节奏做中文剧本短剧化改编，按最新短剧规范生成角色场景道具资产"
+  default_prompt: "使用 $short-drama-adaptation-pipeline（改编 skill），按已授权范围执行步骤1—4的母版改编与步骤5—7的资产工作。新建项目后原样收存母本；导入名用母本中文名 改编，用户确认改编方向与新剧名后更名为剧名 剧本；其他类别按中文剧名与实际内容命名，文稿剧名使用中文剧名_英文剧名，磁盘保留批次规范。"
