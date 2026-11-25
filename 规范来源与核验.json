@@ -1,8 +1,8 @@
 {
-  "version": "2026.11.21.1",
-  "date": "2026-11-21",
+  "version": "2026.11.25.1",
+  "date": "2026-11-25",
   "alias": "改编 skill",
-  "scope": "保留原有项目维护基线及2026-11-20人物标准；增加用户指定的女性穿搭非必选参考池",
+  "scope": "新项目采用两个面部虚化的全身视图与右栏正面、45° 侧转双清晰近景；步骤1—4保持原有流程。",
   "adaptation_source": {
     "package": "short-drama-adaptation-pipeline_交接包_20261031",
     "manifest_verified_files": 8,
@@ -72,19 +72,19 @@
     "image_generation": "执行时使用当前环境可用且本轮已授权的图片生成工具"
   },
   "files": {
-    "SKILL.md": "ee51547e2fb8f4f13602d2829fe4ea84e9f17fef866112c91a32c2ad4aac52bc",
+    "SKILL.md": "0f62a5fed828eccbb9b69bce0e42b30f84c3d817492037fd9c6e0f4266304454",
     "agents/openai.yaml": "5e0075445d71b12981167545b181113642b39b32626a6fc19ecc9a6928e1c45c",
-    "references/人物肤质脸型与服装验收.md": "bbd057c07cedc681e862225550c4e052ff2292a0b699a96a3e2475b0340f6a7a",
-    "references/人物资产辨识度与视频参考.md": "a148d44330094d4105dc8c2b0cace7bb51b734b980494a40b7dba3b4583937ff",
-    "references/人物选角与跨剧差异化.md": "f000e3cabe05f48b0deaa46d647bff07b350b7cfce005bc32a6ebe706ea91979",
+    "references/人物肤质脸型与服装验收.md": "a68ac33ff8db1d6cc1b2215a7bfb6f632f989885812c7c27fc2ad53fbba376ec",
+    "references/人物资产辨识度与视频参考.md": "27e672830480698069b709f9114bca6326e731ca892aac58c57175010bfcd34d",
+    "references/人物选角与跨剧差异化.md": "6df7ef9ab8d7b9afbf807c6fc4b547aa5ef67442c3373a3aed4e8546bb7dfc69",
     "references/共享主演参考库.md": "01d22848ff62209e6d782af353360871429486eedb953af5e8decaf1f34b8460",
     "references/共享主演参考库配置.json": "ec4dd24aa55f854f96801f74fa574db481925160c2a55ae7f28c448a0f9dd66a",
     "references/内容安全与叙事边界.md": "a3be67d9d613f4217a096cfaf951dde2127e8bd963d0385579eee600a362a391",
     "references/场景叙事美术与光影差异化.md": "9e91b4c13ff092a5ea95e40e23b5ef71160e6c82ca51b843bf505df109a96227",
     "references/场景资产生成规则.md": "f329cbd2b538af0f2dcd44ab691ca3de0b8d6a32d4c43cdf531e7b9f7881a30c",
     "references/女性服装穿搭备选参考.md": "d2214ecd1a0d5b3708b32ff64ffa8c87c7ff19a8fce11a2ce95b2accf7ac8bd8",
-    "references/角色资产生成规则.md": "68601049e4727239af42baa96eef3d8fc69df1dd6c3bd51ec99d7efaf7592813",
-    "references/资产规划与按需生成规则.md": "0439aef90f58f1e36e9527ac08dac0feddf3944dd8095ca2a06fc56190f4333b",
+    "references/角色资产生成规则.md": "56bcaa195ab916271ba3cde39f2ab2fc03eb57ef5d0d4960def0c1270143a67d",
+    "references/资产规划与按需生成规则.md": "e34da2cc0a187c45b8ee34ea9976bab35b5e97852243141898c1a26f76b06a0c",
     "references/道具资产生成规则.md": "6bb3a6287f8e7f6b2686ef00923f8bda4195af3b783d0db37020c7cd9641c262",
     "references/项目规范与目录整理.md": "e56bd76413ae5ebf773aac9cddd55ed74b35ce566485ffa75e745414f3138bb9"
   },
@@ -134,15 +134,16 @@
     "github_published": true
   },
   "public_release": {
-    "version": "2026.11.21.1",
-    "tag": "v2026.11.21.1",
-    "date": "2026-11-21",
+    "version": "2026.11.25.1",
+    "tag": "v2026.11.25.1",
+    "date": "2026-11-25",
     "private_media_included": false,
     "machine_paths_included": false,
     "adaptations": [
       "共享库路径使用既有可迁移配置，不上传私人图片及本机资料",
       "新增7组非必选女性穿搭备选参考",
-      "保留前轮人物标准与原剧集数、自然时长及步骤1—4"
+      "保留前轮人物标准与原剧集数、自然时长及步骤1—4",
+      "新项目采用两个面部虚化的全身视图与右栏正面、45° 侧转双清晰近景；步骤1—4保持原有流程。"
     ]
   }
 }
