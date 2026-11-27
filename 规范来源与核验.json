@@ -1,8 +1,8 @@
 {
-  "version": "2026.11.25.1",
-  "date": "2026-11-25",
+  "version": "2026.11.27.1",
+  "date": "2026-11-27",
   "alias": "改编 skill",
-  "scope": "新项目采用两个面部虚化的全身视图与右栏正面、45° 侧转双清晰近景；步骤1—4保持原有流程。",
+  "scope": "步骤5增加正脸颊颌轮廓验收与局部返修，既有定妆板规格和步骤1—4继续适用。",
   "adaptation_source": {
     "package": "short-drama-adaptation-pipeline_交接包_20261031",
     "manifest_verified_files": 8,
@@ -72,18 +72,18 @@
     "image_generation": "执行时使用当前环境可用且本轮已授权的图片生成工具"
   },
   "files": {
-    "SKILL.md": "0f62a5fed828eccbb9b69bce0e42b30f84c3d817492037fd9c6e0f4266304454",
+    "SKILL.md": "b6dec9fa1cb8bfa4597aa9577cb0a600432fa513b376ecd0cbae1fe0b6d14b6f",
     "agents/openai.yaml": "5e0075445d71b12981167545b181113642b39b32626a6fc19ecc9a6928e1c45c",
-    "references/人物肤质脸型与服装验收.md": "a68ac33ff8db1d6cc1b2215a7bfb6f632f989885812c7c27fc2ad53fbba376ec",
+    "references/人物肤质脸型与服装验收.md": "b0f364fe4e51e8fb2fea9d974a86871ed0452f2ec38e23ab32ef06ac8afe2f2b",
     "references/人物资产辨识度与视频参考.md": "27e672830480698069b709f9114bca6326e731ca892aac58c57175010bfcd34d",
-    "references/人物选角与跨剧差异化.md": "6df7ef9ab8d7b9afbf807c6fc4b547aa5ef67442c3373a3aed4e8546bb7dfc69",
+    "references/人物选角与跨剧差异化.md": "b55a4da01a09d4449fc42f19bbf7c85270dcfba71789059afad47ec9c113d1a1",
     "references/共享主演参考库.md": "01d22848ff62209e6d782af353360871429486eedb953af5e8decaf1f34b8460",
     "references/共享主演参考库配置.json": "ec4dd24aa55f854f96801f74fa574db481925160c2a55ae7f28c448a0f9dd66a",
     "references/内容安全与叙事边界.md": "a3be67d9d613f4217a096cfaf951dde2127e8bd963d0385579eee600a362a391",
     "references/场景叙事美术与光影差异化.md": "9e91b4c13ff092a5ea95e40e23b5ef71160e6c82ca51b843bf505df109a96227",
     "references/场景资产生成规则.md": "f329cbd2b538af0f2dcd44ab691ca3de0b8d6a32d4c43cdf531e7b9f7881a30c",
     "references/女性服装穿搭备选参考.md": "d2214ecd1a0d5b3708b32ff64ffa8c87c7ff19a8fce11a2ce95b2accf7ac8bd8",
-    "references/角色资产生成规则.md": "56bcaa195ab916271ba3cde39f2ab2fc03eb57ef5d0d4960def0c1270143a67d",
+    "references/角色资产生成规则.md": "b159b82c48d764d28260003274961c03290494ddf91dad4fe216e64e70e6168b",
     "references/资产规划与按需生成规则.md": "e34da2cc0a187c45b8ee34ea9976bab35b5e97852243141898c1a26f76b06a0c",
     "references/道具资产生成规则.md": "6bb3a6287f8e7f6b2686ef00923f8bda4195af3b783d0db37020c7cd9641c262",
     "references/项目规范与目录整理.md": "e56bd76413ae5ebf773aac9cddd55ed74b35ce566485ffa75e745414f3138bb9"

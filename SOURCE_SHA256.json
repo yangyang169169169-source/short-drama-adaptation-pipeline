@@ -1,48 +1,49 @@
 {
-  "version": "2026.11.25.1",
-  "tag": "v2026.11.25.1",
-  "date": "2026-11-25",
+  "version": "2026.11.27.1",
+  "tag": "v2026.11.27.1",
+  "date": "2026-11-27",
   "skill": "short-drama-adaptation-pipeline",
   "visibility": "public_rules_only",
   "source_sha256": {
-    "SKILL.md": "4bf34c75a8178b69db19e4597624983060e52bbce06dc2f2492e5cb902ea96d4",
+    "SKILL.md": "e4bdcb669491791a6e5d06991904556afef7ae2716e58a214bf878c707584378",
     "agents/openai.yaml": "5e0075445d71b12981167545b181113642b39b32626a6fc19ecc9a6928e1c45c",
-    "references/人物肤质脸型与服装验收.md": "a68ac33ff8db1d6cc1b2215a7bfb6f632f989885812c7c27fc2ad53fbba376ec",
+    "references/人物肤质脸型与服装验收.md": "b0f364fe4e51e8fb2fea9d974a86871ed0452f2ec38e23ab32ef06ac8afe2f2b",
     "references/人物资产辨识度与视频参考.md": "27e672830480698069b709f9114bca6326e731ca892aac58c57175010bfcd34d",
-    "references/人物选角与跨剧差异化.md": "6df7ef9ab8d7b9afbf807c6fc4b547aa5ef67442c3373a3aed4e8546bb7dfc69",
+    "references/人物选角与跨剧差异化.md": "b55a4da01a09d4449fc42f19bbf7c85270dcfba71789059afad47ec9c113d1a1",
     "references/共享主演参考库.md": "b34e596ee3c3a6faa13dfe2dae23adff0bb24fd19461e6a9998588f254b71bea",
     "references/共享主演参考库配置.json": "b155435c26aef101578a546fab824e60843090899f68e2583795af249ebaf1f3",
     "references/内容安全与叙事边界.md": "a3be67d9d613f4217a096cfaf951dde2127e8bd963d0385579eee600a362a391",
     "references/场景叙事美术与光影差异化.md": "9e91b4c13ff092a5ea95e40e23b5ef71160e6c82ca51b843bf505df109a96227",
     "references/场景资产生成规则.md": "f329cbd2b538af0f2dcd44ab691ca3de0b8d6a32d4c43cdf531e7b9f7881a30c",
     "references/女性服装穿搭备选参考.md": "a54d6863210fcc49f70ad7ed4600ed376dba0af338c27ecdf4723381545e0324",
-    "references/角色资产生成规则.md": "56bcaa195ab916271ba3cde39f2ab2fc03eb57ef5d0d4960def0c1270143a67d",
+    "references/角色资产生成规则.md": "b159b82c48d764d28260003274961c03290494ddf91dad4fe216e64e70e6168b",
     "references/资产规划与按需生成规则.md": "e34da2cc0a187c45b8ee34ea9976bab35b5e97852243141898c1a26f76b06a0c",
     "references/道具资产生成规则.md": "6bb3a6287f8e7f6b2686ef00923f8bda4195af3b783d0db37020c7cd9641c262",
     "references/项目规范与目录整理.md": "e56bd76413ae5ebf773aac9cddd55ed74b35ce566485ffa75e745414f3138bb9",
-    "规范来源与核验.json": "9860c88c330ee23e718e390862ce28f02f0803df40f2a903561c5a36f6dad154"
+    "规范来源与核验.json": "22e1b901e1bfb95a8c148c3cf2496b3048f83674f2130cfd9b5d47f64fc3c398"
   },
   "publish_adaptations": [
     "保留既有公开版可迁移路径及纯文字审美规则，不含私人参考图片与本机资料",
     "同步女性穿搭备选池，保持非必选与按角色适配查图的边界",
-    "公开规则、双近景构图、提示词与图片验收同步；本机自有配置保留。"
+    "公开规则、双近景构图、提示词与图片验收同步；本机自有配置保留。",
+    "短剧步骤2与改编步骤5同步采用正脸颊颌专项，公开包沿用可迁移配置。"
   ],
   "files": {
-    "SKILL.md": "0f62a5fed828eccbb9b69bce0e42b30f84c3d817492037fd9c6e0f4266304454",
+    "SKILL.md": "b6dec9fa1cb8bfa4597aa9577cb0a600432fa513b376ecd0cbae1fe0b6d14b6f",
     "agents/openai.yaml": "5e0075445d71b12981167545b181113642b39b32626a6fc19ecc9a6928e1c45c",
-    "references/人物肤质脸型与服装验收.md": "a68ac33ff8db1d6cc1b2215a7bfb6f632f989885812c7c27fc2ad53fbba376ec",
+    "references/人物肤质脸型与服装验收.md": "b0f364fe4e51e8fb2fea9d974a86871ed0452f2ec38e23ab32ef06ac8afe2f2b",
     "references/人物资产辨识度与视频参考.md": "27e672830480698069b709f9114bca6326e731ca892aac58c57175010bfcd34d",
-    "references/人物选角与跨剧差异化.md": "6df7ef9ab8d7b9afbf807c6fc4b547aa5ef67442c3373a3aed4e8546bb7dfc69",
+    "references/人物选角与跨剧差异化.md": "b55a4da01a09d4449fc42f19bbf7c85270dcfba71789059afad47ec9c113d1a1",
     "references/共享主演参考库.md": "01d22848ff62209e6d782af353360871429486eedb953af5e8decaf1f34b8460",
     "references/共享主演参考库配置.json": "ec4dd24aa55f854f96801f74fa574db481925160c2a55ae7f28c448a0f9dd66a",
     "references/内容安全与叙事边界.md": "a3be67d9d613f4217a096cfaf951dde2127e8bd963d0385579eee600a362a391",
     "references/场景叙事美术与光影差异化.md": "9e91b4c13ff092a5ea95e40e23b5ef71160e6c82ca51b843bf505df109a96227",
     "references/场景资产生成规则.md": "f329cbd2b538af0f2dcd44ab691ca3de0b8d6a32d4c43cdf531e7b9f7881a30c",
     "references/女性服装穿搭备选参考.md": "d2214ecd1a0d5b3708b32ff64ffa8c87c7ff19a8fce11a2ce95b2accf7ac8bd8",
-    "references/角色资产生成规则.md": "56bcaa195ab916271ba3cde39f2ab2fc03eb57ef5d0d4960def0c1270143a67d",
+    "references/角色资产生成规则.md": "b159b82c48d764d28260003274961c03290494ddf91dad4fe216e64e70e6168b",
     "references/资产规划与按需生成规则.md": "e34da2cc0a187c45b8ee34ea9976bab35b5e97852243141898c1a26f76b06a0c",
     "references/道具资产生成规则.md": "6bb3a6287f8e7f6b2686ef00923f8bda4195af3b783d0db37020c7cd9641c262",
     "references/项目规范与目录整理.md": "e56bd76413ae5ebf773aac9cddd55ed74b35ce566485ffa75e745414f3138bb9",
-    "规范来源与核验.json": "8b9aefb5f874c3b2d298371f3966b5b4c09c8cd4b32b91512ada9976dfaa2a58"
+    "规范来源与核验.json": "22e1b901e1bfb95a8c148c3cf2496b3048f83674f2130cfd9b5d47f64fc3c398"
   }
 }
